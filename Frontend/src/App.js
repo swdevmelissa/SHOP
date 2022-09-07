@@ -1,9 +1,14 @@
 import React from "react";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import HomeScreen from "./screens/HomeScreen";
 
 const App = () => {
   return (
-    <div></div>
+   <Router>
+     <Switch>
+        <Route path='/' component={HomeScreen} exact />
+     </Switch>
+   </Router>
   )
 };
 
