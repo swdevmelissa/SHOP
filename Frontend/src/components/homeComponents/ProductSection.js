@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProductSection = () => {
   return (
     <div className="container">
-      <div className="section">
+      <div className="section col-md-3">
         <div className="row">
           <div className="col-lg-12 col-md-12 article">
             <div className="shopcontainer row">
