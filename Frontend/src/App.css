@@ -88,6 +88,108 @@ h2 {
   display: none;
 }
 
+/* SHOP */
+.section {
+  width: 100%;
+  padding-bottom: 6%;
+  padding-top: 2%;
+}
+.sidebar_item {
+  margin-bottom: 35px;
+}
+.sidebar_item h4 {
+  color: #1c1c1c;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.sidebar_item ul {
+  margin: 0;
+  padding: 0;
+}
+.sidebar_item ul li {
+  list-style: none;
+  display: flex;
+}
+
+.sidebar_item ul li a {
+  font-size: 16px;
+  color: #000000;
+  line-height: 45px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+}
+.sidebar_item ul li img {
+  width: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.shop {
+  margin-bottom: 50px;
+}
+.border-product {
+  padding: 15px;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
+
+/* END OF SHOP */
+
+/* GET IN TOUCH SECTION */
+.subscribe-section {
+    padding: 10;
+    background-color: #302b2b; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+ 
+}
+.subscribe-head h2 {
+  padding-top: 50px;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin: 0 0 13px;
+  text-transform: uppercase;
+}
+.subscribe-head p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 39px;
+}
+.subscribe-head {
+  text-align: center;
+}
+.form-section {
+  padding-bottom: 50px;
+}
+.form-section input[type="email"] {
+  border: 0 none;
+  border-radius: 25px;
+  color: #9b9b9b;
+  font-size: 16px;
+  font-style: normal;
+  height: 51px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 460px;
+}
+.form-section input[type="submit"] {
+  background: #1cb803;
+  border: 0 none;
+  border-radius: 25px;
+  color: #fff;
+  height: 52px;
+  letter-spacing: 0;
+  margin-left: 30px;
+  padding: 0 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: right;
+}
+
 /* LOGIN */
 .login-center {
   padding: 50px 0;
