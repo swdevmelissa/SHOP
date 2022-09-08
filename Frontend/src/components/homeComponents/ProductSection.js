@@ -1,5 +1,6 @@
 import products from "../../dumpData/Products";
 import { Link } from "react-router-dom";
+import Rating from "./Rating";
 
 const ProductSection = () => {
   return (
@@ -17,12 +18,17 @@ const ProductSection = () => {
                       </div>
                     </Link>
 
-                    <div>
+                    <div className="shoptext">
                       <p>
                         <Link to={`products/${[product.id]}`}>
                           {product.name}
                         </Link>
                       </p>
+                      <Rating 
+                      value={product.rating}
+                      text={`${product.numReviews} reviews`}
+                      />
+                      <h3>${product.price}</h3>
                     </div>
                   </div>
                 </div>
