@@ -4,7 +4,7 @@ import ProductSection from '../components/homeComponents/ProductSection';
 import GetInTouchForm from "../components/homeComponents/GetInTouchForm";
 import ContactInfo from "../components/homeComponents/ContactInfo";
 
-const HomeScreen = () => {
+const HomePage = () => {
     return (
       <div>
         <Header />
@@ -16,4 +16,4 @@ const HomeScreen = () => {
     )
 }
 
-export default HomeScreen;
+export default HomePage;
