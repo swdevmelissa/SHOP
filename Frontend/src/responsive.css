@@ -67,6 +67,9 @@
         .product-name {
           font-size: 23px;
         }
+        .author-card-avatar {
+          display: none;
+        }
     }
 
     @media (max-width: 575px) {
