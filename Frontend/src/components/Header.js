@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div>
         {/* Main header */}
-        <div>
+        <div className="Announcement">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 d-flex align-items-center display-none">

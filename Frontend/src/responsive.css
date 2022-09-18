@@ -58,6 +58,15 @@
         .subscribe-head h2 {
           font-size: 25px;
         }
+        .contact-Box {
+          margin: 30px 0;
+        }
+        .contactInfo {
+          padding: 20px 0;
+        }
+        .product-name {
+          font-size: 23px;
+        }
     }
 
     @media (max-width: 575px) {
