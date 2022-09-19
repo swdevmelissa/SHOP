@@ -48,51 +48,50 @@
   }
 }
 
-    @media (max-width: 575.98px) {
-        .subscribe-head .form-section input[type="email"] {
-          width: 100%;
-        }
-        .subscribe-head .form-section input[type="submit"] {
-          width: 100%;
-          padding: 0 0;
-          margin-top: 20px;
-          margin-left: 0px;
-        }
-        .subscribe-head h2 {
-          font-size: 25px;
-        }
-        .subscribe-section {
-          padding: 70px 0 70px;
-        }
-        .card-name {
-          width: 8%;
-          margin: 0 7px;
-        }
-        .login-center {
-          padding: 20px 0;
-        }
-        .center {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-        }
-        .center h5 {
-          font-size: 17px;
-          margin-top: 10px;
-        }
-        .center p {
-          font-size: 17px;
-        }
-      }
+@media (max-width: 575.98px) {
+  .subscribe-head .form-section input[type="email"] {
+    width: 100%;
+  }
+  .subscribe-head .form-section input[type="submit"] {
+    width: 100%;
+    padding: 0 0;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .subscribe-head h2 {
+    font-size: 25px;
+  }
+  .subscribe-section {
+    padding: 70px 0 70px;
+  }
+  .card-name {
+    width: 8%;
+    margin: 0 7px;
+  }
+  .login-center {
+    padding: 20px 0;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .center h5 {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .center p {
+    font-size: 17px;
+  }
+}
 
-      
-      @media (max-width: 400px) {
-        .subscribe-head h2 {
-          font-size: 20px;
-        }
-        .single-image,
-        .single-image img {
-          height: 200px;
-        }
-    }
+@media (max-width: 400px) {
+  .subscribe-head h2 {
+    font-size: 20px;
+  }
+  .single-image,
+  .single-image img {
+    height: 200px;
+  }
+}

@@ -11,9 +11,9 @@ const ProductSection = () => {
           <div className="col-lg-12 col-md-12 article">
             <div className="shopcontainer row">
               {products.map((product) => (
-                <div 
-                className="shop col-lg-4 col-md-2 col-sm-6"
-                key={product.id}
+                <div
+                  className="shop col-lg-4 col-md-2 col-sm-6"
+                  key={product.id}
                 >
                   <div className="border-product">
                     <Link to={`products/${[product.id]}`}>
@@ -28,16 +28,16 @@ const ProductSection = () => {
                           {product.name}
                         </Link>
                       </p>
-                      <Rating 
-                      value={product.rating}
-                      text={`${product.numReviews} reviews`}
+                      <Rating
+                        value={product.rating}
+                        text={`${product.numReviews} reviews`}
                       />
                       <h3>${product.price}</h3>
                     </div>
                   </div>
                 </div>
               ))}
-              
+
               <Pagination />
             </div>
           </div>

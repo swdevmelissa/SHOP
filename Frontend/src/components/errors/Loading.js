@@ -1,15 +1,15 @@
 const Loading = () => {
-    return (
-        <div className="justify-content-center">
-            <div
-            className="spinner-border text-success"
-            role="status"
-            style={{width: "50px", heightL "50px"}}
-            >
-              <span className="sr-only">LOADING...</span>
-            </div>
-        </div>
-    )
+  return (
+    <div className="justify-content-center">
+      <div
+        className="spinner-border text-success"
+        role="status"
+        style={{ width: "50px", height: "50px" }}
+      >
+        <span className="sr-only">LOADING...</span>
+      </div>
+    </div>
+  );
 };
 
 export default Loading;

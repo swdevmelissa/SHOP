@@ -3,37 +3,36 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-        {/* Main header */}
-        <div className="Announcement">
-            <div className="container">
-                <div className="row">
-                    <div className="col-md-6 d-flex align-items-center display-none">
-                        <p> phone: +355 69 447 3303</p>
-                        <p> email: info@yourshop.com</p>
-                    </div>
-                    <div className="col-12 col-lg-6 justify-content-lg-end d-flex align-items-center">
-                      <Link to="">
-                        <i className=" fab fa-facebook-f"></i>
-                      </Link>
-                      <Link to="">
-                        <i className=" fab fa-linkedin-in"></i>
-                      </Link>
-                      <Link to="">
-                        <i className=" fab fa-instagram"></i>
-                      </Link>
-                      <Link to="">
-                        <i className=" fab fa-youtube"></i>
-                      </Link>
-                    </div>
-
-                </div>
+      {/* Main header */}
+      <div className="Announcement">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 d-flex align-items-center display-none">
+              <p> phone: +355 69 447 3303</p>
+              <p> email: info@yourshop.com</p>
             </div>
+            <div className="col-12 col-lg-6 justify-content-lg-end d-flex align-items-center">
+              <Link to="">
+                <i className=" fab fa-facebook-f"></i>
+              </Link>
+              <Link to="">
+                <i className=" fab fa-linkedin-in"></i>
+              </Link>
+              <Link to="">
+                <i className=" fab fa-instagram"></i>
+              </Link>
+              <Link to="">
+                <i className=" fab fa-youtube"></i>
+              </Link>
+            </div>
+          </div>
         </div>
-        {/* Header */}
-        <div className="header">
-            <div className="container">
-                {/* Mobile Header  */}
-                <div className="mobile-header">
+      </div>
+      {/* Header */}
+      <div className="header">
+        <div className="container">
+          {/* Mobile Header  */}
+          <div className="mobile-header">
             <div className="container ">
               <div className="row ">
                 <div className="col-6 d-flex align-items-center">
@@ -82,7 +81,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-          
+
           {/* PC Header */}
           <div className="pc-header">
             <div className="row">
@@ -132,14 +131,10 @@ const Header = () => {
               </div>
             </div>
           </div>
-          
-
-            </div>
         </div>
-
-
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Header;

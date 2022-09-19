@@ -280,15 +280,13 @@ textarea:focus {
   background: #1cb803;
 }
 
-
 /* GET IN TOUCH SECTION */
 .subscribe-section {
-    padding: 10;
-    background-color: #302b2b; /* Used if the image is unavailable */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
- 
+  padding: 10;
+  background-color: #302b2b; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 .subscribe-head h2 {
   padding-top: 50px;
@@ -514,7 +512,6 @@ textarea:focus {
   width: 100%;
 }
 
-
 /* CART */
 .cart-item {
   margin: 40px 0;
@@ -662,7 +659,7 @@ textarea:focus {
 
 /* FOOTER */
 .footer {
-  background-color: #0c3b6a
+  background-color: #0c3b6a;
 }
 .card-name {
   width: 4%;

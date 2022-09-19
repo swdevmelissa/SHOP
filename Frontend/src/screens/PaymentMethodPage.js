@@ -19,7 +19,6 @@ const PaymentMethodPage = () => {
             <hr />
             <input className="form-check-input" type="radio" value="Credit" />
             <label className="form-check-label">Credit Card</label>
-            
           </div>
         </div>
 

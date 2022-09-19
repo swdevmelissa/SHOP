@@ -1,19 +1,19 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ProductSection from '../components/homeComponents/ProductSection';
+import ProductSection from "../components/homeComponents/ProductSection";
 import GetInTouchForm from "../components/homeComponents/GetInTouchForm";
 import ContactInfo from "../components/homeComponents/ContactInfo";
 
 const HomePage = () => {
-    return (
-      <div>
-        <Header />
-        <ProductSection />
-        <GetInTouchForm />
-        <ContactInfo />
-        <Footer />
-      </div>
-    )
-}
+  return (
+    <div>
+      <Header />
+      <ProductSection />
+      <GetInTouchForm />
+      <ContactInfo />
+      <Footer />
+    </div>
+  );
+};
 
 export default HomePage;

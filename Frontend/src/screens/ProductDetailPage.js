@@ -1,6 +1,7 @@
 import Rating from "../components/homeComponents/Rating";
 import Header from "../components/Header";
 import products from "../dumpData/Products";
+import Message from "../components/errors/Message";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
@@ -70,7 +71,7 @@ const ProductDetailPage = () => {
         <div className="row my-5">
           <div className="col-md-6">
             <h6>REVIEWS</h6>
-            <span variant={"alert-info mt-3"}>No Reviews yet!</span>
+            <Message variant={"alert-info mt-3"}>No Reviews yet!</Message>
             <div className="mb-5 bg-light p-3 shadow-sm rounded mb-md-3">
               <strong>Melisa</strong>
               <Rating />
@@ -88,7 +89,7 @@ const ProductDetailPage = () => {
             <div className="my-4"></div>
 
             <form>
-            <div className="my-4">
+              <div className="my-4">
                 <strong>Rating</strong>
                 <select className="col-12 bg-light p-3 mt-2 border-0 rounded">
                   <option value="">Select...</option>
@@ -113,10 +114,13 @@ const ProductDetailPage = () => {
               </div>
             </form>
             <div className="my-3">
+              <Message variant={"alert-warning"}>
+                Please{" "}
                 <Link to="/login">
-                    <strong>LOGIN</strong>
-                </Link>
-
+                  " <strong>Login</strong> "
+                </Link>{" "}
+                to write a review{" "}
+              </Message>
             </div>
           </div>
         </div>

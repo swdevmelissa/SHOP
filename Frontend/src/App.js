@@ -11,27 +11,27 @@ import DeliveryInfo from "./screens/DeliveryInfo";
 import PaymentMethodPage from "./screens/PaymentMethodPage";
 import PlaceOrderPage from "./screens/PlaceOrderPage";
 import OrderPage from "./screens/OrderPage";
-import NotFoundPage from './screens/NotFoundPage';
-import Login from './screens/Login';
+import NotFoundPage from "./screens/NotFoundPage";
+import Login from "./screens/Login";
 
 const App = () => {
   return (
-   <Router>
-     <Switch>
-        <Route path='/' component={HomePage} exact />
-        <Route path='/products/:id' component={ProductDetailPage} />
+    <Router>
+      <Switch>
+        <Route path="/" component={HomePage} exact />
+        <Route path="/products/:id" component={ProductDetailPage} />
         <Route path="/login" component={Login} />
         <Route path="/register" component={Register} />
-        <Route path='/profile' component={ProfilePage} />
-        <Route path='/cart/:id?' component={CartPage} />
-        <Route path='/delivery' component={DeliveryInfo} />
-        <Route path='/paymentMethod' component={PaymentMethodPage} />
-        <Route path='/placeorder' component={PlaceOrderPage} />
-        <Route path='/order' component={OrderPage} />
+        <Route path="/profile" component={ProfilePage} />
+        <Route path="/cart/:id?" component={CartPage} />
+        <Route path="/delivery" component={DeliveryInfo} />
+        <Route path="/paymentMethod" component={PaymentMethodPage} />
+        <Route path="/placeorder" component={PlaceOrderPage} />
+        <Route path="/order" component={OrderPage} />
         <Route path="*" component={NotFoundPage} />
-     </Switch>
-   </Router>
-  )
+      </Switch>
+    </Router>
+  );
 };
 
 export default App;
