@@ -10,6 +10,7 @@ import ProductDetailPage from "./screens/ProductDetailPage";
 import DeliveryInfo from "./screens/DeliveryInfo";
 import PaymentMethodPage from "./screens/PaymentMethodPage";
 import PlaceOrderPage from "./screens/PlaceOrderPage";
+import OrderPage from "./screens/OrderPage";
 import NotFoundPage from './screens/NotFoundPage';
 import Login from './screens/Login';
 
@@ -26,6 +27,7 @@ const App = () => {
         <Route path='/delivery' component={DeliveryInfo} />
         <Route path='/paymentMethod' component={PaymentMethodPage} />
         <Route path='/placeorder' component={PlaceOrderPage} />
+        <Route path='/order' component={OrderPage} />
         <Route path="*" component={NotFoundPage} />
      </Switch>
    </Router>
