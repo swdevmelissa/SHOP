@@ -1,10 +1,8 @@
-import Header from "../components/Header";
 import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
-    <>
-      <Header />
+    
       <div className="container flex-column d-flex justify-content-center align-items-center login-center">
         <form className="login col-md-8 col-lg-4 col-11">
           <input type="email" placeholder="Email" />
@@ -16,7 +14,7 @@ const Login = () => {
           </p>
         </form>
       </div>
-    </>
+   
   );
 };
 

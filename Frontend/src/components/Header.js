@@ -41,7 +41,7 @@ const Header = () => {
                     <img alt="logo" src="/images/techshop.jpg" />
                   </Link>
                 </div>
-                <div className="col-6 d-flex align-items-center justify-content-end Login-Register">
+                <div className="col-6 d-flex align-items-center justify-content-end login-register">
                   <div className="btn-group">
                     <button
                       type="button"
@@ -103,7 +103,7 @@ const Header = () => {
                   </button>
                 </form>
               </div>
-              <div className="col-md-3 d-flex align-items-center justify-content-end Login-Register">
+              <div className="col-md-3 d-flex align-items-center justify-content-end login-register">
                 <div className="btn-group">
                   <button
                     type="button"

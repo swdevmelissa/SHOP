@@ -79,13 +79,13 @@ textarea:focus {
   text-transform: uppercase;
   font-size: 12px;
 }
-.Login-Register a {
+.login-register a {
   text-transform: uppercase;
   font-size: 15px;
   margin-right: 2rem;
   position: relative;
 }
-.Login-Register a:nth-last-child(1) {
+.login-register a:nth-last-child(1) {
   margin-right: 0rem;
 }
 .badge {
@@ -375,8 +375,9 @@ textarea:focus {
 .login-center {
   padding: 50px 0;
 }
-.login {
-  background: #fff;
+.login,
+.login2 {
+  background: rgb(201, 225, 255);
   border-radius: 5px;
   position: relative;
   padding: 35px 30px 30px;
@@ -386,25 +387,27 @@ textarea:focus {
 .login input {
   width: 100%;
   padding: 20px 20px;
-  margin-top: 20px;
-  border: 1px solid #e4e4e4;
+  margin-top: 30px;
+  border: 1px solid #141414;
   border-radius: 5px;
-  color: #8a8a8a;
+  color: #141414;
 }
 .login input:focus {
   outline: 0px;
 }
-.login button {
+.login button,
+.login2 button {
   width: 100%;
   margin-top: 20px;
   padding: 20px 0;
   border: 0;
-  background-color: #1cb803;
+  background-color: #2703b8;
   border-radius: 5px;
   text-transform: uppercase;
   color: white;
 }
-.login button a {
+.login button a,
+.login2 button a {
   text-transform: uppercase;
   color: white;
 }
@@ -594,6 +597,22 @@ textarea:focus {
 }
 .cart-buttons a:nth-child(1) button {
   background-color: #1d0588;
+}
+
+/* Payment */
+.payment-container {
+  margin-top: 20px;
+}
+.radio-container {
+  padding: 10px 0;
+  text-align: start;
+}
+.radio-container input {
+  font-size: 17px;
+}
+.radio-container label {
+  padding: 0 20px;
+  font-size: 17px;
 }
 
 /* FOOTER */

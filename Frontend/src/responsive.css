@@ -5,7 +5,7 @@
     .search-button {
       font-size: 10px;
     }
-    .Login-Register a {
+    .login-register a {
       font-size: 10px;
     }
     .btn-group button {
@@ -21,6 +21,9 @@
     }
     .author-card-avatar img {
       margin-top: -20%;
+    }
+    .single-product {
+      margin-top: 20px;
     }
 }
     
@@ -84,6 +87,13 @@
         .total .total-price {
           font-size: 16px;
         }
+        .single-image {
+          margin-bottom: 50px;
+          margin-right: 0;
+        }
+        .product-name {
+          font-size: 23px;
+        }
     }
 
     @media (max-width: 575.98px) {
@@ -128,5 +138,9 @@
       @media (max-width: 400px) {
         .subscribe-head h2 {
           font-size: 20px;
+        }
+        .single-image,
+        .single-image img {
+          height: 200px;
         }
     }
