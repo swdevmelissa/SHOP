@@ -1,16 +1,20 @@
 import products from "../../dumpData/Products";
 import { Link } from "react-router-dom";
 import Rating from "./Rating";
+import Pagination from "./Pagination";
 
 const ProductSection = () => {
   return (
     <div className="container">
-      <div className="section col-md-3">
+      <div className="section ">
         <div className="row">
           <div className="col-lg-12 col-md-12 article">
             <div className="shopcontainer row">
               {products.map((product) => (
-                <div>
+                <div 
+                className="shop col-lg-4 col-md-2 col-sm-6"
+                key={product.id}
+                >
                   <div className="border-product">
                     <Link to={`products/${[product.id]}`}>
                       <div className="shopBack">
@@ -33,6 +37,8 @@ const ProductSection = () => {
                   </div>
                 </div>
               ))}
+              
+              <Pagination />
             </div>
           </div>
         </div>

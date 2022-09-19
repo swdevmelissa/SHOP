@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
     .display-none {
       display: none !important;
     }
@@ -18,6 +18,9 @@
     }
     .input-group {
       height: 30px;
+    }
+    .author-card-avatar img {
+      margin-top: -20%;
     }
 }
     
@@ -70,9 +73,20 @@
         .author-card-avatar {
           display: none;
         }
+        .cart-buttons {
+          margin: 40px 0;
+        }
+        .cart-buttons a button,
+        .cart-buttons .d-flex button {
+          width: 100%;
+        }
+        .total .sub,
+        .total .total-price {
+          font-size: 16px;
+        }
     }
 
-    @media (max-width: 575px) {
+    @media (max-width: 575.98px) {
         .subscribe-head .form-section input[type="email"] {
           width: 100%;
         }

@@ -5,17 +5,15 @@ const Login = () => {
   return (
     <>
       <Header />
-      <div>
-        <form>
+      <div className="container flex-column d-flex justify-content-center align-items-center login-center">
+        <form className="login col-md-8 col-lg-4 col-11">
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <button type="submit">Login</button>
 
-          <div> New costumer? 
-            <p>
+          <p>
             <Link to={"/register"}> Create Account</Link>
-            </p>
-          </div>
+          </p>
         </form>
       </div>
     </>

@@ -11,11 +11,11 @@ const CartPage = () => {
         </div>
         {/*cart items */}
         <div className="cart-item row">
-          <div className="remoce-button d-flex justify-content-center align-items-center">
+          <div className="remove-button d-flex justify-content-center align-items-center">
             <i className="fas fa-times"></i>
           </div>
-          <div>
-            <img src="./images/appleWatch.jpg" alt="appleWatch" />
+          <div className="cart-image col-md-3">
+            <img src="/images/productsImg/appleWatch.jpg" alt="appleWatch" />
           </div>
           <div className="cart-text col-md-5 d-flex align-items-center">
             <Link to="#">
@@ -38,9 +38,9 @@ const CartPage = () => {
         </div>
         {/*cart items end */}
 
-        <div>
-          <span>Total:</span>
-          <span>$670</span>
+        <div className="total">
+          <span className="sub">Total:</span>
+          <span className="total-price">$670</span>
         </div>
         <hr />
         <div className="cart-buttons align-items-center d-flex row">

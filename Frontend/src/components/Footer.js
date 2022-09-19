@@ -28,6 +28,9 @@ const Footer = () => {
           </div>
         
         </div>
+        <div className="justify-content-center d-flex">
+          <p className="name">Copyright &copy; YourShop</p>
+        </div>
       </div>
     );
   };
