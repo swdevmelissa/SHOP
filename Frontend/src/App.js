@@ -9,6 +9,7 @@ import CartPage from "./screens/CartPage";
 import ProductDetailPage from "./screens/ProductDetailPage";
 import DeliveryInfo from "./screens/DeliveryInfo";
 import PaymentMethodPage from "./screens/PaymentMethodPage";
+import PlaceOrderPage from "./screens/PlaceOrderPage";
 import NotFoundPage from './screens/NotFoundPage';
 import Login from './screens/Login';
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/cart/:id?' component={CartPage} />
         <Route path='/delivery' component={DeliveryInfo} />
         <Route path='/paymentMethod' component={PaymentMethodPage} />
+        <Route path='/placeorder' component={PlaceOrderPage} />
         <Route path="*" component={NotFoundPage} />
      </Switch>
    </Router>
