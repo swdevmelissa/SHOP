@@ -14,7 +14,7 @@ const DeliveryInfo = () => {
         <input type="text" placeholder="Enter postal code" />
         <input type="text" placeholder="Enter country" />
         <button type="submit">
-          <Link to="/payment" className="text-white">
+          <Link to="/paymentMethod" className="text-white">
             Continue
           </Link>
         </button>

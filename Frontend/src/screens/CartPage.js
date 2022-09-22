@@ -49,7 +49,7 @@ const CartPage = () => {
           </Link>
           <div className="col-md-6 justify-content-md-end mt-3 d-flex mt-md-0">
             <button>
-              <Link to="/shipping" className="text-white">
+              <Link to="/delivery" className="text-white">
                 Checkout
               </Link>
             </button>

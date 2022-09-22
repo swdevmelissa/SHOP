@@ -8,4 +8,4 @@ Message.defaultProps = {
     variant: "alert-info"
 };
 
-export default ErrorMessage;
+export default Message;
